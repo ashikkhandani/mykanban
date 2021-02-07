@@ -5,7 +5,7 @@ export default class testingContainer extends Component {
     const { toTest, handleChange3 } = this.props;
     return (
       <div className="testing">
-        <h4 className="bg-warning py-2">Testing</h4>
+        <h4 className="bg-warning py-sm-2 py-md-3">Testing</h4>
         {/* map method */}
         {toTest.map((el) => {
           return (
