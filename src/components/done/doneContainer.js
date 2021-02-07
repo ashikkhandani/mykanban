@@ -5,7 +5,9 @@ export default class doneContainer extends Component {
     const { toDone, handleChange4 } = this.props;
     return (
       <div className="done">
-        <h4 className="bg-success py-2">Done</h4>
+        <h4 className=" py-2" style={{ backgroundColor: "rgb(25, 224, 25)" }}>
+          Done
+        </h4>
         {/* map method */}
         {toDone.map((el) => {
           return (

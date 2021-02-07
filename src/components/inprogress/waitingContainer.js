@@ -5,7 +5,9 @@ export default class waitingContainer extends Component {
     const { toWait, handleChange2 } = this.props;
     return (
       <div className="waiting">
-        <h4 className="bg-danger py-2">Waiting</h4>
+        <h4 className="py-2" style={{ backgroundColor: "#FF4500" }}>
+          Waiting
+        </h4>
         {/* map method */}
         {toWait.map((el) => {
           return (

@@ -5,7 +5,7 @@ export default class doneItem extends Component {
     const { item4, onStatusChange4 } = this.props;
 
     return (
-      <div onClick={() => onStatusChange4(item4.id)}>
+      <div className="my-3" onClick={() => onStatusChange4(item4.id)}>
         {<p className="doneP">{item4.task} </p>}
       </div>
     );

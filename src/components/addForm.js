@@ -27,7 +27,7 @@ export default class addForm extends Component {
 
   render() {
     return (
-      <div className="row justify-content-center mb-3">
+      <div className="row justify-content-center mb-3 mt-3">
         <Form
           inline
           className="col-sm-12 col-md-5 col-lg-4 text-align-center"
@@ -42,7 +42,7 @@ export default class addForm extends Component {
           />
 
           <Button
-            className="btn bg-dark col-sm-3 col-md-5 col-lg-3 my-sm-2 ml-sm-2 ml-md-5 ml-lg-2 mt-sm-2"
+            className="btnF bg-dark col-sm-3 col-md-5 col-lg-3 my-sm-2 ml-sm-2 ml-md-5 ml-lg-2 mt-sm-2"
             type="submit"
             value="Add"
           >
